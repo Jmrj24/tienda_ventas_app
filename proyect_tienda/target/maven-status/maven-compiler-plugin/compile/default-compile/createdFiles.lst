@@ -1,0 +1,17 @@
+com\example\proyect_tienda\ProyectTiendaApplication.class
+com\example\proyect_tienda\service\ClienteService.class
+com\example\proyect_tienda\repository\IProductoRepository.class
+com\example\proyect_tienda\controller\ClienteController.class
+com\example\proyect_tienda\controller\VentaController.class
+com\example\proyect_tienda\model\Venta.class
+com\example\proyect_tienda\controller\ProductoController.class
+com\example\proyect_tienda\model\Cliente.class
+com\example\proyect_tienda\model\Producto.class
+com\example\proyect_tienda\repository\IVentaRepository.class
+com\example\proyect_tienda\dto\VentaClienteDTO.class
+com\example\proyect_tienda\service\VentaService.class
+com\example\proyect_tienda\service\IProductoService.class
+com\example\proyect_tienda\service\ProductoService.class
+com\example\proyect_tienda\service\IVentaService.class
+com\example\proyect_tienda\service\IClienteService.class
+com\example\proyect_tienda\repository\IClienteRepository.class

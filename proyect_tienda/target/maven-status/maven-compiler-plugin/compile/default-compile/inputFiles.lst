@@ -1,0 +1,17 @@
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\controller\ClienteController.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\controller\ProductoController.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\controller\VentaController.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\dto\VentaClienteDTO.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\model\Cliente.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\model\Producto.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\model\Venta.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\ProyectTiendaApplication.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\repository\IClienteRepository.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\repository\IProductoRepository.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\repository\IVentaRepository.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\service\ClienteService.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\service\IClienteService.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\service\IProductoService.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\service\IVentaService.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\service\ProductoService.java
+C:\Users\Jeferson\Documents\SpringDocker\proyect_tienda\proyect_tienda\src\main\java\com\example\proyect_tienda\service\VentaService.java
