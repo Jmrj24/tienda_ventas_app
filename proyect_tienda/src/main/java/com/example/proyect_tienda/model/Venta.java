@@ -13,6 +13,7 @@ public class Venta {
     @Id
     @GeneratedValue(strategy= GenerationType.SEQUENCE)
     private Long codigoVenta;
+    @Temporal(TemporalType.DATE)
     private LocalDate fechaVenta;
     private double total;
     @ManyToMany
