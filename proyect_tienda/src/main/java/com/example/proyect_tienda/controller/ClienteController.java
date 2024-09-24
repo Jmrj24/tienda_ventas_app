@@ -1,7 +1,7 @@
 package com.example.proyect_tienda.controller;
 
 import com.example.proyect_tienda.model.Cliente;
-import com.example.proyect_tienda.service.ClienteService;
+import com.example.proyect_tienda.service.IClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class ClienteController {
     @Autowired
-    private ClienteService clienteServi;
+    private IClienteService clienteServi;
 
     // Crear un Cliente
     @PostMapping("/clientes/crear")

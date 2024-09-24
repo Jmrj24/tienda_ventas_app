@@ -3,7 +3,7 @@ package com.example.proyect_tienda.controller;
 import com.example.proyect_tienda.dto.VentaClienteDTO;
 import com.example.proyect_tienda.model.Producto;
 import com.example.proyect_tienda.model.Venta;
-import com.example.proyect_tienda.service.VentaService;
+import com.example.proyect_tienda.service.IVentaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 public class VentaController {
     @Autowired
-    private VentaService ventaServi;
+    private IVentaService ventaServi;
 
     // Crear un venta
     @PostMapping("/ventas/crear")
