@@ -18,6 +18,7 @@ public class VentaService implements IVentaService {
     @Autowired
     private IProductoService productoServi;
 
+    @Override
     public String saveVenta(Venta venta) {
         List<Producto> listaProductosVe = venta.getListaProductos();
         List<Producto> listaProductosBD = productoServi.getAllProductos();
@@ -72,26 +73,32 @@ public class VentaService implements IVentaService {
         return resp;
     }
 
+    @Override
     public List<Venta> getAllVentas() {
         return ventaRepo.findAll();
     }
 
+    @Override
     public void deleteVenta(Long codigoVenta) {
         ventaRepo.deleteById(codigoVenta);
     }
 
+    @Override
     public Venta findVenta(Long codigoVenta) {
         return ventaRepo.findById(codigoVenta).orElse(null);
     }
 
+    @Override
     public void editVenta(Venta venta) {
         this.saveVenta(venta);
     }
 
+    @Override
     public List<Producto> getProductos(Long codigoVenta) {
         return this.findVenta(codigoVenta).getListaProductos();
     }
 
+    @Override
     public String getVentasFecha(LocalDate fechaVenta) {
         List<Venta> listaVentas = this.getAllVentas();
         double sumaTotalVentas = 0.0;
@@ -107,6 +114,7 @@ public class VentaService implements IVentaService {
                 "para el dia: " + fechaVenta + " es: " + cantVentas;
     }
 
+    @Override
     public VentaClienteDTO mayorVenta() {
         List<Venta> listaVentas = this.getAllVentas();
         Venta ventaMayor = new Venta();

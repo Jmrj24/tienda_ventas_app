@@ -13,22 +13,27 @@ public class ClienteService implements IClienteService{
     @Autowired
     private IClienteRepository clienteRepo;
 
+    @Override
     public void saveCliente(Cliente cliente) {
         clienteRepo.save(cliente);
     }
 
+    @Override
     public List<Cliente> getAllClientes() {
         return clienteRepo.findAll();
     }
 
+    @Override
     public void deleteCliente(Long idCliente) {
         clienteRepo.deleteById(idCliente);
     }
 
+    @Override
     public Cliente findCliente(Long idCliente) {
         return clienteRepo.findById(idCliente).orElse(null);
     }
 
+    @Override
     public void editCliente(Cliente cliente) {
         this.saveCliente(cliente);
     }
