@@ -31,14 +31,14 @@ El sistema está basado en tres entidades principales:
 - **Postman** (para realizar pruebas de la API)
 - **Git** y **GitHub** (para control de versiones y colaboración)
 
-Endpoints Principales
-GET /productos: Lista todos los productos disponibles en el bazar.
-POST /productos/crear: Crea un nuevo producto.
-PUT /productos/editar: Edita los detalles de un producto.
-DELETE /productos/eliminar/{id}: Elimina un producto por su ID.
-GET /ventas: Lista todas las ventas registradas.
-POST /ventas/crear: Registra una nueva venta.
-GET /clientes: Lista todos los clientes registrados.
-POST /clientes/crear: Registra un nuevo cliente.
+### Endpoints Principales
+- GET /productos: Lista todos los productos disponibles en el bazar.
+- POST /productos/crear: Crea un nuevo producto.
+- PUT /productos/editar: Edita los detalles de un producto.
+- DELETE /productos/eliminar/{id}: Elimina un producto por su ID.
+- GET /ventas: Lista todas las ventas registradas.
+- POST /ventas/crear: Registra una nueva venta.
+- GET /clientes: Lista todos los clientes registrados.
+- POST /clientes/crear: Registra un nuevo cliente.
 
 
