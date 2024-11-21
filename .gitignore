@@ -1,2 +1,4 @@
 # Ignorar carpeta de configuración de IntelliJ IDEA
-.idea/
+.idea
+
+docker-compose.yml
