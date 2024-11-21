@@ -1,4 +1,13 @@
-# Ignorar carpeta de configuración de IntelliJ IDEA
-.idea
+HELP.md
 
 docker-compose.yml
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
